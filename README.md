@@ -3,13 +3,13 @@
 ### Der Plan
 
 * Machine Learning ermöglicht die Erkennung von Strukturen in Daten. Das können Gesichter in Bildern sein, Bedeutungen in Audiodateien oder Intentionen in Texten.
-* Diese Technologien werden zunehmend von Unternehmen zur Kundenanalyse und für die Überwachung eingesetzt.
-* Trainieren von neuronalen Netzen erfordert noch recht viel Einarbeitung und Rechenleistung (auch wenn es viele Leute gibt, die sich bemühen, die Hemmschwelle zu verringern, z.B. [ml4a](http://ml4a.github.io))
-* Wir wollen deshalb in diesem Kurs nur auf die Nutzungsseite vorhandener Neuronaler Netzwerke fokussieren. Wir arbeiten dazu mit mit Cloud Services, die Dienste für Sprach-, Bild- und Textanalyse anbieten. 
+* Diese Technologien sind heute durch Sprachassisten wie Siri, [Alexa](https://www.amazon.de/Amazon-Echo-Dot-Generation-Schwarz/dp/B01DFKBG54) und Google Home weitläufig bekannt. Sie werden von Unternehmen aber auch zunehmen zur Kundenanalyse und von Staaten für die [Überwachung](http://www.spiegel.de/netzwelt/netzpolitik/gesichtserkennung-am-berliner-suedkreuz-ein-test-fuer-unsere-freiheit-a-1160867.html) eingesetzt.
+* Trainieren von neuronalen Netzen erfordert noch recht viel Einarbeitung und Rechenleistung. Auch wenn es viele Leute gibt, die sich bemühen, die Hemmschwelle zu verringern, z.B. das Projekt [ml4a](http://ml4a.github.io) von [Gene Kogan](http://genekogan.com) oder [Wekinator](http://www.wekinator.org) von [Rebecca Fiebrink](https://www.doc.gold.ac.uk/~mas01rf/homepage/).
+* Wir wollen deshalb in diesem Kurs nur auf die Nutzungsseite vorhandener Neuronaler Netzwerke fokussieren. Wir arbeiten dazu mit mit Cloud Services, die Dienste für Sprach-, Bild- und Textanalyse anbieten. In diesem Fall nutzen wir die [Cloud Machine Learning Diensten von Google](https://cloud.google.com/products/machine-learning/)), es gibt aber auch fast identische Dienste von anderen Unternehmen wie IBM, Microsoft und Amazon.
 * Ziel ist es, neue kreative und experimentelle Anwendungsfelder zu finden und zu prototypen. Dabei kann es um empathische Produkte oder intelligente Services gehen. Und darum, wie eine implizitere, indirektere Kommunikation mit Computern funktionieren kann. 
 
 ### Der Prozess
-Es gibt kein starres Kurrikulum. Das gesamte Unterfangen ist als Experiment anzusehen und kann durch die Teilnehmer mitgestaltet werden. Abhängig von der Teilnehmeranzahl wird in Gruppen à 3-4 Personen gearbeitet.
+Es gibt kein starres Kurrikulum. Das gesamte Unterfangen ist als Experiment anzusehen und kann durch die Teilnehmer mitgestaltet werden. Ich werde versuchen, den Teil des Frontalunterrichts möglichst kurz und abwechslungsreich zu halten und stattdessen mehr Peer-learning und selbstständiges Arbeiten in Gruppen vorsehen.  Abhängig von der Teilnehmeranzahl wird in Gruppen à 3-4 Personen gearbeitet.
 
 Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilnehmer es wollen. Einige der Themen werden sein:
 
@@ -47,10 +47,13 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 
 ## Tools
 * Der **Klassenchat**, um Links und sonstiges schnell und einfach auszutauschen: [https://riot.im/app/#/room/#khb:matrix.org](https://riot.im/app/#/room/#khb:matrix.org)
+	* Code Syntax Hightlighting bekommt man, indem man in einer Zeile über dem Code  ```js einfügt 
 * [p5.js Online Editor](editor.p5js.org)
 * Texteditor [Atom](https://atom.io)
 * Google Chrome und seine Developer Tools (unbedingt in den Einstellungen die Option `disable cache` aktivieren
 * [Github](http://github.com): Hier landen aller Beispiel-Code, der Code eurer Projekte und dieses Dokument.
+	* Ihr könnt über Pull Requests Dinge zu dieser Repository Code hinzufügen. Wie das alles Funtioniert erklärt Daniel Shiffman [hier](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
+	* Das geht am einfachsten mit dem [Github Desktop Client](https://desktop.github.com)
 * [Google Cloud Machine Learning Dienste](https://cloud.google.com/products/machine-learning/)
 	* [Vision API](https://cloud.google.com/vision/)
 	* [Speech API](https://cloud.google.com/speech/)
@@ -94,7 +97,8 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* Video
 	* Live Video
 * Intro zu APIs
-	* IFTTT / Zapier
+	* Was ist das und warum ist das wichtig?
+	* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
 	* Beispiel mit [OpenWeatherMap](openweathermap.org)
 
 ### Session 2 / 29.04.2018
@@ -102,11 +106,12 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* Demos 
 	* Ansprechen der APIs aus Processing
 * Hacking / Ideengenerierung / Prototyping
+* Diskussion über Datenschutz und Privatsphäre
 
 ### Zwischendurch
 * Konzept verfeinern
 * Research
-* tiefer in die Technologien reinarbeiten
+* tiefer in die Technologien einarbeiten
 * Technische Fragen klären
 * Optional: Weiterentwicklung eigener p5.js Bibliothek
 
