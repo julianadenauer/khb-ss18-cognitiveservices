@@ -1,4 +1,5 @@
 # Experimental Cognitive Services
+
 ## Allgemein
 ### Der Plan
 
@@ -59,18 +60,20 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* [Speech API](https://cloud.google.com/speech/)
 	* [Natural Language API](https://cloud.google.com/natural-language/)
 	* [Translation API](https://cloud.google.com/translate/)
-* Optional: [Cyberduck FTP Client](https://cyberduck.io)
+* Optional: [Cyberduck](https://cyberduck.io) FTP Client
+* Optional: [Uberspace](https://uberspace.de) Webhosting
 
 ## Resources
 * [p5.js Reference](https://p5js.org/reference/)
 * [The Coding Train](https://www.youtube.com/user/shiffman) YouTube Tutorials von Daniel Shiffman
 * Buch (und Website) [Generative Gestaltung](http://www.generative-gestaltung.de/2/) von Benedikt Groß, Hartmut Bohnacker und Julia Laub
+* [ProgrammableWeb](https://www.programmableweb.com)
 
 ## Sessions 
 
 ### Session 1 / 28.04.2018
 * Vorstellung der Teilnehmer (Vorerfahrungen, Interessen etc.)
-* Vorstellung des Seminar-Ablaufs und der Inhalte
+* [Vorstellung des Seminar-Ablaufs und der Inhalte](#der-plan)
 * Vorstellung Julian
 * Intro zu p5.js
 	* was ist p5.js?
@@ -98,6 +101,10 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* Live Video
 * Intro zu APIs
 	* Was ist das und warum ist das wichtig?
+	* [ProgrammableWeb](https://www.programmableweb.com)
+		* [What is an API and how do they work?](https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work)
+		* [Twilio](https://www.twilio.com)
+		* [Solaris Bank](https://www.solarisbank.com/de/)
 	* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
 	* Beispiel mit [OpenWeatherMap](openweathermap.org)
 
