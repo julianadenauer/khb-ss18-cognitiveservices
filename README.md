@@ -49,7 +49,8 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 ## Tools
 * Der **Klassenchat**, um Links und sonstiges schnell und einfach auszutauschen: [https://riot.im/app/#/room/#khb:matrix.org](https://riot.im/app/#/room/#khb:matrix.org)
 	* Code Syntax Hightlighting bekommt man, indem man in einer Zeile über dem Code  ```js einfügt 
-* [p5.js Online Editor](editor.p5js.org)
+* [p5.js](p5js.org)
+	* [p5.js Online Editor](editor.p5js.org)
 * Texteditor [Atom](https://atom.io)
 * Google Chrome und seine Developer Tools (unbedingt in den Einstellungen die Option `disable cache` aktivieren
 * [Github](http://github.com): Hier landen aller Beispiel-Code, der Code eurer Projekte und dieses Dokument.
@@ -76,7 +77,7 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * [Vorstellung des Seminar-Ablaufs und der Inhalte](#der-plan)
 * Vorstellung Julian
 * Intro zu p5.js
-	* was ist p5.js?
+	* [was ist p5.js?](http://hello.p5js.org)
 	* workflow
 	* setup und draw
 	* Basics of drawing (2D Primitives, Koordinatensystem)
