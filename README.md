@@ -90,6 +90,9 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* Gruppe 5: [Conditional Statements](https://www.youtube.com/watch?v=1Osb_iGDdjk&index=11&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 	* Gruppe 6: [Bouncing Ball](https://www.youtube.com/watch?v=LO3Awjn_gyU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=12)
 	* Gruppe 7: [Else and Else if, AND and OR](https://www.youtube.com/watch?v=r2S7j54I68c&index=13&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+### Session 2 / 29.04.2018
+* p5.js Intro Teil 2
 	* [Loops](https://www.youtube.com/watch?v=cnRD9o6odjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=15)
 	* [Functions](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17)
 	* [Array](https://www.youtube.com/watch?v=VIQoUghHSxU&index=23&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
@@ -109,7 +112,8 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
 	* Beispiel mit [OpenWeatherMap](openweathermap.org)
 
-### Session 2 / 29.04.2018
+
+
 * Google Cloud APIs
 	* Demos 
 	* Ansprechen der APIs aus Processing
