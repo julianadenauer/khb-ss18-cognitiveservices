@@ -27,8 +27,7 @@ function setup() {
     adresse + apiKey,
     {
       method: 'POST',
-      // Other Request options, like special headers for apis
-			body: JSON.stringify(request),
+      body: JSON.stringify(request),
     },
     callback
   );
