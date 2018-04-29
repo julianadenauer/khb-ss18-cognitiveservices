@@ -11,7 +11,7 @@ function setup() {
 }
 
 function getWeather(){
-  httpGet(adresse + "Berlin" + appId, callback);
+  httpGet(adresse + "Berlin" + appId, weatherCallback);
 }
 
 function draw() {
@@ -21,7 +21,7 @@ function draw() {
   ellipse(250, 250, windSpeed * 20);
 }
 
-function callback(data) {
+function weatherCallback(data) {
   // die antwort in ein javascript objekt umwandln
   var parsed = JSON.parse(data);
 
@@ -30,15 +30,4 @@ function callback(data) {
 
   // in der variablen speichern
   windSpeed = parsed.wind.speed;
-}
-
-function callback2(data) {
-  // die antwort in ein javascript objekt umwandln
-  var parsed = JSON.parse(data);
-
-  // schreibe den wert in die konsole
-  print(parsed.wind.speed);
-
-  // in der variablen speichern
-  windSpeed2 = parsed.wind.speed;
 }
