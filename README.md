@@ -47,13 +47,11 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * [MIT Media Lab Identity](http://thegreeneyl.com/mit-media-lab-identity-1)
 
 ## Tools
-* Der **Klassenchat**, um Links und sonstiges schnell und einfach auszutauschen: [https://riot.im/app/#/room/#khb:matrix.org](https://riot.im/app/#/room/#khb:matrix.org)
-	* Code Syntax Hightlighting bekommt man, indem man in einer Zeile über dem Code  ```js einfügt 
 * [p5.js](http://p5js.org)
 	* [p5.js Online Editor](http://editor.p5js.org)
 * Texteditor [Atom](https://atom.io)
 * Google Chrome und seine Developer Tools (unbedingt in den Einstellungen die Option `disable cache` aktivieren
-* [Github](http://github.com): Hier landen aller Beispiel-Code, der Code eurer Projekte und dieses Dokument.
+* [Github](https://github.com/julianadenauer/khb-ss18-cognitiveservices): Hier landen aller Beispiel-Code, der Code eurer Projekte und dieses Dokument.
 	* Ihr könnt über Pull Requests Dinge zu dieser Repository Code hinzufügen. Wie das alles Funtioniert erklärt Daniel Shiffman [hier](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
 	* Das geht am einfachsten mit dem [Github Desktop Client](https://desktop.github.com)
 * [Google Cloud Machine Learning Dienste](https://cloud.google.com/products/machine-learning/)
@@ -97,12 +95,6 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* [Functions](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17)
 	* [Array](https://www.youtube.com/watch?v=VIQoUghHSxU&index=23&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 	* [Images](https://p5js.org/reference/#/p5.Image)
-* [Beyond the Canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
-	* Create HTML Objects
-	* Element specific listeners
-	* CSS
-	* Video
-	* Live Video
 * Intro zu APIs
 	* Was ist das und warum ist das wichtig?
 		* [ProgrammableWeb](https://www.programmableweb.com)
@@ -135,3 +127,12 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * Doku Sprint
 * Präsentation
 * Optional: Diskussion über Datenschutz und Privatsphäre
+
+### Backlog
+
+* [Beyond the Canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
+	* Create HTML Objects
+	* Element specific listeners
+	* CSS
+	* Video
+	* Live Video
