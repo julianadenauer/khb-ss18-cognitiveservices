@@ -92,9 +92,6 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 ### Session 2 / 29.04.2018
 * p5.js Intro Teil 2
 	* [Loops](https://www.youtube.com/watch?v=cnRD9o6odjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=15)
-	* [Functions](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17)
-	* [Array](https://www.youtube.com/watch?v=VIQoUghHSxU&index=23&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-	* [Images](https://p5js.org/reference/#/p5.Image)
 * Intro zu APIs
 	* Was ist das und warum ist das wichtig?
 		* [ProgrammableWeb](https://www.programmableweb.com)
@@ -129,7 +126,9 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * Optional: Diskussion über Datenschutz und Privatsphäre
 
 ### Backlog
-
+* [Functions](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17)
+* [Array](https://www.youtube.com/watch?v=VIQoUghHSxU&index=23&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+* [Images](https://p5js.org/reference/#/p5.Image)
 * [Beyond the Canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 	* Create HTML Objects
 	* Element specific listeners
