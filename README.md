@@ -105,20 +105,14 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* Live Video
 * Intro zu APIs
 	* Was ist das und warum ist das wichtig?
-	* [ProgrammableWeb](https://www.programmableweb.com)
+		* [ProgrammableWeb](https://www.programmableweb.com)
 		* [What is an API and how do they work?](https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work)
 		* [Twilio](https://www.twilio.com)
 		* [Solaris Bank](https://www.solarisbank.com/de/)
-	* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
+		* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
 	* Beispiel mit [OpenWeatherMap](openweathermap.org)
-
-
-
 * Google Cloud APIs
-	* Demos 
-	* Ansprechen der APIs aus Processing
-* Hacking / Ideengenerierung / Prototyping
-* Diskussion über Datenschutz und Privatsphäre
+	* Demo zur Bilderkennungs-API aus p5.js
 
 ### Zwischendurch
 * Konzept verfeinern
@@ -128,7 +122,16 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * Optional: Weiterentwicklung eigener p5.js Bibliothek
 
 ### Session 3 / 26.05.2018
-* Design & Prototyping Sprint
+* Recap
+	* Was haben wir beim letzten Mal gemacht?
+	* Offene Fragen klären
+	* Hausaufgabenkontrolle
+* Ideengenerierung
+* Präsentation von Ideen
+* Hacking & Prototyping
 
 ### Session 4 / 27.05.2018
+* Hacking & Prototyping
 * Doku Sprint
+* Präsentation
+* Optional: Diskussion über Datenschutz und Privatsphäre
