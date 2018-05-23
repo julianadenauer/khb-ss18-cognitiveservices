@@ -99,6 +99,7 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 		* [Twilio](https://www.twilio.com)
 		* [Solaris Bank](https://www.solarisbank.com/de/)
 		* [IFTTT](https://ifttt.com) / [Zapier](zapier.com)
+	* [API Tutorial von Shiffman](https://www.youtube.com/watch?v=ecT42O6I_WI&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=5)
 	* Beispiel mit [OpenWeatherMap](openweathermap.org)
 * Google Cloud APIs
 	* Demo zur Bilderkennungs-API aus p5.js
