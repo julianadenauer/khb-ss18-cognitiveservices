@@ -59,6 +59,8 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* [Speech API](https://cloud.google.com/speech/)
 	* [Natural Language API](https://cloud.google.com/natural-language/)
 	* [Translation API](https://cloud.google.com/translate/)
+* Python SimpleHTTPServer
+	* Wenn man [Python](https://www.python.org) installiert hat (ist bei Macs standardmäßig der Fall), kann man mit dem Befehl `python -m SimpleHTTPServer 8000` im Terminal einen Server starten. Das ist sehr praktisch für die späteren Beispiele.
 * Optional: [Cyberduck](https://cyberduck.io) FTP Client
 * Optional: [Uberspace](https://uberspace.de) Webhosting
 
@@ -110,12 +112,19 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 * tiefer in die Technologien einarbeiten
 * Technische Fragen klären
 * Optional: Weiterentwicklung eigener p5.js Bibliothek
+* Hausaufgaben
+	1. Geht nochmal alle Beispiele durch, die wir beim letzten Mal besprochen haben 
+	2. Erweitert das letzte Beispiel (visionwebcam) um eine zusätzliche Komponente: Reagiert auf das was erkannt wird, schaut, welche Informationen ihr noch aus den Bildern gewinnen könnt (=> https://cloud.google.com/vision/.) Vielleicht kann man auch ein Spiel draus machen?
+	3. Bringt mindestens ein Konzept für ein Produkt, eine Intervention, eine Installation oder ein spekulativ kritisches Projekt mit, das durch Machine Learning Dienste (Bilder- und Spracherkennung, Sprachverständnis, Übersetzung etc.) möglich wird.
 
 ### Session 3 / 26.05.2018
 * Recap
 	* Was haben wir beim letzten Mal gemacht?
 	* Offene Fragen klären
 	* Hausaufgabenkontrolle
+* Weiterführung
+	* Beispiele Spracherkennung mit [p5.speech](https://github.com/IDMNYU/p5.js-speech)
+	* speech-to-sentiment
 * Ideengenerierung
 * Präsentation von Ideen
 * Hacking & Prototyping
