@@ -4,10 +4,15 @@ function setup() {
   createCanvas(500, 500);
 
   // die adresse unserer API
-  var adresse = "http://api.openweathermap.org/data/2.5/weather?q=Innsbruck&APPID=c96429d70a1299c784e85d3a88b353a1&units=metric";
+  var url = "http://api.openweathermap.org/data/2.5/weather?";
+  var city = "Berlin";
+  var format = "metric";
+  var id = "c96429d70a1299c784e85d3a88b353a1";
+
+  var request = url + "q=" + city + "&units=" + format + "&APPID=" + id;
 
   // daten abrufen
-  httpGet(adresse, callback);
+  httpGet(request, callback);
 }
 
 function draw() {
