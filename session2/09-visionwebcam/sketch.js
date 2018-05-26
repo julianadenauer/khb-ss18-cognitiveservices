@@ -1,3 +1,11 @@
+/*
+
+info how to do the requests to the vision api can be found here:
+https://cloud.google.com/vision/docs/request
+
+*/
+
+
 var adresse = 'https://vision.googleapis.com/v1/images:annotate';
 var apiKey ='?key=AIzaSyC3tg8DgSol0JaCBMoyRfWFj1XhIUBpVMc';
 var whatsOn = "";
@@ -17,8 +25,8 @@ function setup() {
 }
 
 function sendImageToApi() {
-  var encodedImage = canvas.elt.toDataURL();
-  encodedImage = encodedImage.split(',')[1];
+  var encodedImage = canvas.elt.toDataURL(); // translate the image into text
+  encodedImage = encodedImage.split(',')[1]; // cut something off to make this work
 
   // konfiguriere die anfrage
   var request = {
@@ -60,10 +68,12 @@ function draw() {
 }
 
 function callback(data) {
-  // in die konsole schreiben, was wir zurückbekommen
+  // print the raw data to the console
   print(data);
 
+  // try to understand what the text means we got back (this is called "parsing")
   var parsed = JSON.parse(data);
+  // print the pared data to the console
   print(parsed);
 
   whatsOn = parsed.responses[0].labelAnnotations[0].description;
