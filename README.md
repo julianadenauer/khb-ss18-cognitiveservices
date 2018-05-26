@@ -59,8 +59,15 @@ Auf Weg werden wir ein paar Grundlagen klären und dort vertiefen, wo die Teilne
 	* [Speech API](https://cloud.google.com/speech/)
 	* [Natural Language API](https://cloud.google.com/natural-language/)
 	* [Translation API](https://cloud.google.com/translate/)
-* Python SimpleHTTPServer
-	* Wenn man [Python](https://www.python.org) installiert hat (ist bei Macs standardmäßig der Fall), kann man mit dem Befehl `python -m SimpleHTTPServer 8000` im Terminal einen Server starten. Das ist sehr praktisch für die späteren Beispiele.
+* Local Server
+	* Einige der Beispiele funktionieren nicht, wenn die HTML Datei direkt im Browser geöffnet wird (zu erkennen am `file://` in der URL Zeile), sondern müssen von einem Server ausgeliefert werden.
+	* Unter Mac kann man als Server den SimpleHTTPServer von Python verwenden, das standardmäßig installiert ist.
+		* Starten des Terminals (liegt in Programme > Dienstprogramme)
+		* Wechseln ins richtige Verzeichnis (und zwar das Basis-Verzeichnis unserer Repository - also das wo die Ordner `session1` etc drin liegen). Das geht mit dem befehl `cd`. Damit man nicht alles manuell eingeben muss, gibt man im Terminal `cd ` ein (achten auf das Leerzeichen dahinter!) und zieht den entsprechenden Ordner dann per Drag&Drop aus dem Finder ins Terminal. 
+		`python -m SimpleHTTPServer` im Terminal einen Server starten. Vorher muss man aber ins richtige Verzeichnis navigieren. Dazu gibt man im Terminal `cd ` ein und zieht anschließend das entsprechende Verzeichnis vom Finder aufs Terminal.  
+		 ![](img/start-server.gif)
+		 * Anschließend öffnet man `localhost:8000` im Browser und navigiert zum jeweiligen Ordner
+	* Unter Windows kann man auf [MAMP](https://www.mamp.info/de/) zurückgreifen.
 * Optional: [Cyberduck](https://cyberduck.io) FTP Client
 * Optional: [Uberspace](https://uberspace.de) Webhosting
 
